@@ -74,3 +74,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     battery_monitor \
     battery_shutdown
+
+include vendor/qcom/proprietary/common/msm7627a/BoardConfigVendor.mk

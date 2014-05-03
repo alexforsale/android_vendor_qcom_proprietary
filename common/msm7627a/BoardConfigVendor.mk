@@ -15,7 +15,6 @@ PRODUCT_PACKAGES += \
 endif
 
 # Firmware files for atheros
-ifeq ($(BOARD_HAS_ATH_WLAN),true)
 PRODUCT_PACKAGES += \
     athtcmd_ram.bin \
     athwlan.bin \
@@ -24,7 +23,6 @@ PRODUCT_PACKAGES += \
     nullTestFlow.bin \
     softmac \
     utf.bin
-endif
 
 # adreno files
 PRODUCT_PACKAGES += \

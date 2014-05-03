@@ -44,4 +44,5 @@ PRODUCT_PACKAGES += \
     ds_fmc_appd \
     mm-pp-daemon \
     libmm-abl-oem \
-    libmm-abl
+    libmm-abl \
+    ATFWD-daemon

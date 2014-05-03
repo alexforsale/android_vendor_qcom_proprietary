@@ -61,7 +61,10 @@ PRODUCT_PACKAGES += \
     libxml \
     hci_qcomm_init \
     abtfilt \
-    fm_qsoc_patches
+    fm_qsoc_patches \
+    mpdecision \
+    thermald \
+    libadc
 
 # for sapd, external/alljoyn
 PRODUCT_PACKAGES += \

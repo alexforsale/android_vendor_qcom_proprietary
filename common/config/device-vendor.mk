@@ -53,7 +53,8 @@ PRODUCT_PACKAGES += \
     libCommandSvc \
     bridgemgrd \
     sapd \
-    dun-server
+    dun-server \
+    usbhub_init
 
 # for sapd, external/alljoyn
 PRODUCT_PACKAGES += \

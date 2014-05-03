@@ -68,7 +68,8 @@ PRODUCT_PACKAGES += \
     netmgrd \
     nl_listener \
     ccid_daemon \
-    n_smux
+    n_smux \
+    radish
 
 # for sapd, from external/alljoyn
 PRODUCT_PACKAGES += \

@@ -46,4 +46,6 @@ PRODUCT_PACKAGES += \
     libmm-abl-oem \
     libmm-abl \
     ATFWD-daemon \
-    qmuxd
+    qmuxd \
+    qmiproxy \
+    libqcci_legacy

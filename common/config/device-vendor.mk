@@ -75,4 +75,8 @@ PRODUCT_PACKAGES += \
     battery_monitor \
     battery_shutdown
 
+# this should exist on every build
+PRODUCT_PACKAGES += \
+    com.android.future.usb.accessory
+
 include vendor/qcom/proprietary/common/msm7627a/BoardConfigVendor.mk

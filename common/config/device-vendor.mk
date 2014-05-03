@@ -67,7 +67,8 @@ PRODUCT_PACKAGES += \
     libadc \
     netmgrd \
     nl_listener \
-    ccid_daemon
+    ccid_daemon \
+    n_smux
 
 # for sapd, from external/alljoyn
 PRODUCT_PACKAGES += \

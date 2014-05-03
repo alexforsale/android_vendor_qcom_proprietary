@@ -482,6 +482,14 @@ LOCAL_MODULE_CLASS := EXECUTABLES
 LOCAL_MODULE_PATH := $(TARGET_OUT_EXECUTABLES)
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := n_smux
+LOCAL_SRC_FILES := prebuilt/bin/$(LOCAL_MODULE)
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_PATH := $(TARGET_OUT_EXECUTABLES)
+include $(BUILD_PREBUILT)
+
 ####### binary files #######
 
 ####### framework files #######

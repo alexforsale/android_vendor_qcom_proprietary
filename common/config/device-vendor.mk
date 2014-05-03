@@ -54,7 +54,11 @@ PRODUCT_PACKAGES += \
     bridgemgrd \
     sapd \
     dun-server \
-    usbhub_init
+    usbhub_init \
+    cnd \
+    libcneqmiutils \
+    libcneutils \
+    libxml
 
 # for sapd, external/alljoyn
 PRODUCT_PACKAGES += \

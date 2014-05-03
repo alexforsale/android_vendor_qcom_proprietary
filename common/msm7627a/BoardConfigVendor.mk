@@ -48,3 +48,21 @@ PRODUCT_PACKAGES += \
 # etc files
 PRODUCT_PACKAGES += \
     AudioFilter.csv
+
+# misc camera binaries
+PRODUCT_PACKAGES += \
+    mm-qcamera-testsuite-client \
+    mm-qcamera-test \
+    mm-qcamera-daemon \
+    mm-qcamera-app \
+    liboemcamera \
+    libmmjpeg \
+    libgemini \
+    libmmcamera_statsproc31 \
+    libmmcamera_faceproc \
+    libmmcamera_hdr_lib \
+    libmmcamera_frameproc \
+    libmmcamera_image_stab \
+    libmmcamera_wavelet_lib \
+    libmmcamera_interface2 \
+    v4l2-qcamera-app

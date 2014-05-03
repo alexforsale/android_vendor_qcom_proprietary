@@ -306,4 +306,23 @@ LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 ####### adreno files #######
 
+####### ETC files #######
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := AudioFilter.csv
+LOCAL_SRC_FILES := prebuilt/etc/$(LOCAL_MODULE)
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := AutoVolumeControl.txt
+LOCAL_SRC_FILES := prebuilt/etc/$(LOCAL_MODULE)
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc
+include $(BUILD_PREBUILT)
+
+####### ETC files #######
 endif #TARGET_BOARD_PLATFORM

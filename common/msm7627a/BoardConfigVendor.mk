@@ -45,3 +45,6 @@ PRODUCT_PACKAGES += \
     libOpenVG \
     libsc-a2xx
 
+# etc files
+PRODUCT_PACKAGES += \
+    AudioFilter.csv

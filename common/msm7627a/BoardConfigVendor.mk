@@ -74,3 +74,7 @@ PRODUCT_PACKAGES += \
 # for atheros
 PRODUCT_PACKAGES += \
     psatUtil
+
+# fmconfig - FM V4L2 device configuration application
+PRODUCT_PACKAGES += \
+    fmconfig

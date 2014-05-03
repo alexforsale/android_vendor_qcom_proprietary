@@ -66,7 +66,8 @@ PRODUCT_PACKAGES += \
     thermald \
     libadc \
     netmgrd \
-    nl_listener
+    nl_listener \
+    ccid_daemon
 
 # for sapd, from external/alljoyn
 PRODUCT_PACKAGES += \

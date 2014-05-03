@@ -60,7 +60,8 @@ PRODUCT_PACKAGES += \
     libcneutils \
     libxml \
     hci_qcomm_init \
-    abtfilt
+    abtfilt \
+    fm_qsoc_patches
 
 # for sapd, external/alljoyn
 PRODUCT_PACKAGES += \

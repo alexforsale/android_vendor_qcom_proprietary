@@ -38,4 +38,10 @@ PRODUCT_PACKAGES += \
 
 # binary files
 PRODUCT_PACKAGES += \
-    rmt_storage
+    rmt_storage \
+    wiperiface \
+    libwiperjni \
+    ds_fmc_appd \
+    mm-pp-daemon \
+    libmm-abl-oem \
+    libmm-abl

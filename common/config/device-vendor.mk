@@ -59,7 +59,8 @@ PRODUCT_PACKAGES += \
     libcneqmiutils \
     libcneutils \
     libxml \
-    hci_qcomm_init
+    hci_qcomm_init \
+    abtfilt
 
 # for sapd, external/alljoyn
 PRODUCT_PACKAGES += \

@@ -70,3 +70,7 @@ PRODUCT_PACKAGES += \
 # for init.target.rc
 PRODUCT_PACKAGES += \
     gpu_dcvsd
+
+# for atheros
+PRODUCT_PACKAGES += \
+    psatUtil

@@ -69,7 +69,8 @@ PRODUCT_PACKAGES += \
     nl_listener \
     ccid_daemon \
     n_smux \
-    radish
+    radish \
+    usbhub
 
 # for sapd, from external/alljoyn
 PRODUCT_PACKAGES += \

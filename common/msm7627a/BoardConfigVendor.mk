@@ -66,3 +66,7 @@ PRODUCT_PACKAGES += \
     libmmcamera_wavelet_lib \
     libmmcamera_interface2 \
     v4l2-qcamera-app
+
+# for init.target.rc
+PRODUCT_PACKAGES += \
+    gpu_dcvsd

@@ -460,6 +460,17 @@ include $(BUILD_PREBUILT)
 
 ####### binary files #######
 
+####### framework files #######
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := browsermanagement
+LOCAL_SRC_FILES := prebuilt/framework/$(LOCAL_MODULE).jar
+LOCAL_MODULE_PATH := $(TARGET_OUT_JAVA_LIBRARIES)
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+LOCAL_MODULE_TAGS := optional
+include $(BUILD_PREBUILT)
+
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
 endif

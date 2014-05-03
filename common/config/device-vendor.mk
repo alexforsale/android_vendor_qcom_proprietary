@@ -77,6 +77,7 @@ PRODUCT_PACKAGES += \
 
 # this should exist on every build
 PRODUCT_PACKAGES += \
-    com.android.future.usb.accessory
+    com.android.future.usb.accessory \
+    browsermanagement
 
 include vendor/qcom/proprietary/common/msm7627a/BoardConfigVendor.mk

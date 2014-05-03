@@ -70,7 +70,9 @@ PRODUCT_PACKAGES += \
     ccid_daemon \
     n_smux \
     radish \
-    usbhub
+    usbhub \
+    widevinetest_rpc \
+    loc_api_app
 
 # for sapd, from external/alljoyn
 PRODUCT_PACKAGES += \

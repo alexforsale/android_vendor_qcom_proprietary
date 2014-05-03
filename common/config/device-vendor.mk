@@ -64,7 +64,9 @@ PRODUCT_PACKAGES += \
     fm_qsoc_patches \
     mpdecision \
     thermald \
-    libadc
+    libadc \
+    netmgrd \
+    nl_listener
 
 # for sapd, from external/alljoyn
 PRODUCT_PACKAGES += \

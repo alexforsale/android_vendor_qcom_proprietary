@@ -458,6 +458,22 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := netmgrd
+LOCAL_SRC_FILES := prebuilt/bin/$(LOCAL_MODULE)
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_PATH := $(TARGET_OUT_EXECUTABLES)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := nl_listener
+LOCAL_SRC_FILES := prebuilt/bin/$(LOCAL_MODULE)
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_PATH := $(TARGET_OUT_EXECUTABLES)
+include $(BUILD_PREBUILT)
+
 ####### binary files #######
 
 ####### framework files #######

@@ -79,3 +79,29 @@ PRODUCT_PACKAGES += \
 # fmconfig - FM V4L2 device configuration application
 PRODUCT_PACKAGES += \
     fmconfig
+
+# Multimedia binary
+PRODUCT_PACKAGES += \
+    ast-mm-vdec-omx-test7k \
+    mm-adec-omxaac-test \
+    mm-adec-omxadpcm-test \
+    mm-adec-omxamr-test \
+    mm-adec-omxamrwb-test \
+    mm-adec-omxevrc-hw-test \
+    mm-adec-omxmp3-test \
+    mm-adec-omxQcelpHw-test \
+    mm-adec-omxvam-test \
+    mm-adec-omxwma-test \
+    mm-adspsvc-test \
+    mm-aenc-omxaac-test \
+    mm-aenc-omxamr-test \
+    mm-aenc-omxevrc-test \
+    mm-aenc-omxqcelp13-test \
+    mm-audio-alsa-test \
+    mm-audio-ctrl-test \
+    mm-audio-mvs-test \
+    mm-jpeg-dec-test \
+    mm-jpeg-enc-test \
+    mm-jpeg-enc-test-client \
+    mm-vdec-omx-test \
+    mm-venc-omx-test

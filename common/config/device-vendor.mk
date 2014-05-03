@@ -52,7 +52,8 @@ PRODUCT_PACKAGES += \
     port-bridge \
     libCommandSvc \
     bridgemgrd \
-    sapd
+    sapd \
+    dun-server
 
 # for sapd, external/alljoyn
 PRODUCT_PACKAGES += \

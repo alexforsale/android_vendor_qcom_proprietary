@@ -66,6 +66,11 @@ PRODUCT_PACKAGES += \
     thermald \
     libadc
 
-# for sapd, external/alljoyn
+# for sapd, from external/alljoyn
 PRODUCT_PACKAGES += \
    liballjoyn
+
+# battery, from vendor/qcom/opensource/battery_monitor
+PRODUCT_PACKAGES += \
+    battery_monitor \
+    battery_shutdown

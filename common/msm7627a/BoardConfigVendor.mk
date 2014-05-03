@@ -65,7 +65,8 @@ PRODUCT_PACKAGES += \
     libmmcamera_image_stab \
     libmmcamera_wavelet_lib \
     libmmcamera_interface2 \
-    v4l2-qcamera-app
+    v4l2-qcamera-app \
+    test_gemini
 
 # for init.target.rc
 PRODUCT_PACKAGES += \

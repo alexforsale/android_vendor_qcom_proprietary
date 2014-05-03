@@ -48,4 +48,6 @@ PRODUCT_PACKAGES += \
     ATFWD-daemon \
     qmuxd \
     qmiproxy \
-    libqcci_legacy
+    libqcci_legacy \
+    port-bridge \
+    libCommandSvc

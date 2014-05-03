@@ -320,6 +320,24 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := port-bridge
+LOCAL_SRC_FILES := prebuilt/bin/$(LOCAL_MODULE)
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_PATH := $(TARGET_OUT_EXECUTABLES)
+include $(BUILD_PREBUILT)
+
+# lib for port-bridge
+include $(CLEAR_VARS)
+LOCAL_MODULE := libCommandSvc
+LOCAL_SRC_FILES := prebuilt/lib/$(LOCAL_MODULE).so
+LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_TAGS := optional
+include $(BUILD_PREBUILT)
+
 ####### binary files #######
 
 include $(call all-makefiles-under,$(LOCAL_PATH))

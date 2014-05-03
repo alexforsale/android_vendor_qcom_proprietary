@@ -51,4 +51,9 @@ PRODUCT_PACKAGES += \
     libqcci_legacy \
     port-bridge \
     libCommandSvc \
-    bridgemgrd
+    bridgemgrd \
+    sapd
+
+# for sapd, external/alljoyn
+PRODUCT_PACKAGES += \
+   liballjoyn

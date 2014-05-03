@@ -50,4 +50,5 @@ PRODUCT_PACKAGES += \
     qmiproxy \
     libqcci_legacy \
     port-bridge \
-    libCommandSvc
+    libCommandSvc \
+    bridgemgrd

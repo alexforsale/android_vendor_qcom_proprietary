@@ -45,4 +45,5 @@ PRODUCT_PACKAGES += \
     mm-pp-daemon \
     libmm-abl-oem \
     libmm-abl \
-    ATFWD-daemon
+    ATFWD-daemon \
+    qmuxd

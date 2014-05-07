@@ -80,7 +80,8 @@ PRODUCT_PACKAGES += \
     libdss \
     libdsucsd \
     libgsdi_exp \
-    libgstk_exp
+    libgstk_exp \
+    liblasic
 
 # for sapd, from external/alljoyn
 PRODUCT_PACKAGES += \

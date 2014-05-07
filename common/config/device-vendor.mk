@@ -85,7 +85,31 @@ PRODUCT_PACKAGES += \
     libgstk_exp \
     liblasic \
     libloc_ext \
-    libgps
+    libgps \
+    tcp-connections \
+    qnet-plugin \
+    pp_proc_plugin \
+    libwidevine \
+    libwebkitaccel \
+    libvoem_if \
+    libulp2 \
+    libulp \
+    libuim \
+    libtinyxml \
+    libtcpfinaggr \
+    libTamperDetect \
+    libsrsprocessing \
+    libsnd \
+    libqmi_csvt_srvc \
+    libping_mdm \
+    libping_apps \
+    libNimsWrap \
+    libnetmonitor \
+    libmvs \
+    libmaoma_server \
+    libgetzip \
+    libfastcvopt \
+    libdnshostprio
 
 # mm libs
 PRODUCT_PACKAGES += \
@@ -97,7 +121,7 @@ PRODUCT_PACKAGES += \
     libmmipstreamaal \
     libmmipstreamnetwork \
     libmmipstreamsourcehttp \
-    libmmipstreamutils \
+    libmmipstreamutils
     
 # omx
 PRODUCT_PACKAGES += \

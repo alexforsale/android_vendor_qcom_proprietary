@@ -79,7 +79,6 @@ PRODUCT_PACKAGES += \
     libcneapiclient \
     libconfigdb \
     libDiagService \
-    libdivxdrmdecrypt \
     libdss \
     libdsucsd \
     libgsdi_exp \
@@ -100,6 +99,35 @@ PRODUCT_PACKAGES += \
     libmmipstreamsourcehttp \
     libmmipstreamutils \
     
+# omx
+PRODUCT_PACKAGES += \
+    libOmxAacDec \
+    libOmxAacEnc \
+    libOmxAdpcmDec \
+    libOmxAmrDec \
+    libOmxAmrEnc \
+    libOmxAmrRtpDec \
+    libOmxAmrwbDec \
+    libOmxEvrcDec \
+    libOmxEvrcEnc \
+    libOmxEvrcHwDec \
+    libOmxH264Dec \
+    libOmxIttiamVdec \
+    libOmxIttiamVenc \
+    libOmxMp3Dec \
+    libOmxMpeg4Dec \
+    libOmxOn2Dec \
+    libOmxQcelp13Dec \
+    libOmxQcelp13Enc \
+    libOmxQcelpHwDec \
+    libOmxrv9Dec \
+    libOmxVidEnc \
+    libOmxVp8Dec \
+    libOmxWmaDec \
+    libOmxWmvDec \
+    libdivxdrmdecrypt \
+    libSHIMDivxDrm
+
 # for sapd, from external/alljoyn
 PRODUCT_PACKAGES += \
    liballjoyn

@@ -73,7 +73,12 @@ PRODUCT_PACKAGES += \
     usbhub \
     widevinetest_rpc \
     loc_api_app \
-    libcneapiclient
+    libcneapiclient \
+    libconfigdb \
+    libDiagService \
+    libdivxdrmdecrypt \
+    libdss \
+    libdsucsd
 
 # for sapd, from external/alljoyn
 PRODUCT_PACKAGES += \

@@ -81,7 +81,9 @@ PRODUCT_PACKAGES += \
     libdsucsd \
     libgsdi_exp \
     libgstk_exp \
-    liblasic
+    liblasic \
+    libloc_ext \
+    libgps
 
 # for sapd, from external/alljoyn
 PRODUCT_PACKAGES += \

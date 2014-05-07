@@ -67,7 +67,9 @@ PRODUCT_PACKAGES += \
     libmmcamera_interface2 \
     v4l2-qcamera-app \
     test_gemini \
-    libmmstillomx
+    libmmstillomx \
+    libimage-jpeg-enc-omx-comp \
+    libimage-omx-common
 
 # for init.target.rc
 PRODUCT_PACKAGES += \

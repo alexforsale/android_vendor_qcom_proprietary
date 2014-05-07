@@ -72,7 +72,8 @@ PRODUCT_PACKAGES += \
     radish \
     usbhub \
     widevinetest_rpc \
-    loc_api_app
+    loc_api_app \
+    libcneapiclient
 
 # for sapd, from external/alljoyn
 PRODUCT_PACKAGES += \

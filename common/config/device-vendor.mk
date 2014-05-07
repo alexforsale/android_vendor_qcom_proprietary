@@ -78,7 +78,9 @@ PRODUCT_PACKAGES += \
     libDiagService \
     libdivxdrmdecrypt \
     libdss \
-    libdsucsd
+    libdsucsd \
+    libgsdi_exp \
+    libgstk_exp
 
 # for sapd, from external/alljoyn
 PRODUCT_PACKAGES += \

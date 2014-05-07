@@ -72,7 +72,10 @@ PRODUCT_PACKAGES += \
     radish \
     usbhub \
     widevinetest_rpc \
-    loc_api_app \
+    loc_api_app
+
+#misc libs
+PRODUCT_PACKAGES += \
     libcneapiclient \
     libconfigdb \
     libDiagService \
@@ -85,6 +88,18 @@ PRODUCT_PACKAGES += \
     libloc_ext \
     libgps
 
+# mm libs
+PRODUCT_PACKAGES += \
+    libmm-adspsvc \
+    libmmgsdilib \
+    libmmhttpstack \
+    libmmiipstreammmihttp \
+    libmmipl \
+    libmmipstreamaal \
+    libmmipstreamnetwork \
+    libmmipstreamsourcehttp \
+    libmmipstreamutils \
+    
 # for sapd, from external/alljoyn
 PRODUCT_PACKAGES += \
    liballjoyn

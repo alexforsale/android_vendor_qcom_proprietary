@@ -164,6 +164,7 @@ PRODUCT_PACKAGES += \
 # this should exist on every build
 PRODUCT_PACKAGES += \
     com.android.future.usb.accessory \
-    browsermanagement
+    browsermanagement \
+    modemwarmup.jar
 
 include vendor/qcom/proprietary/common/msm7627a/BoardConfigVendor.mk

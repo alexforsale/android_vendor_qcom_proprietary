@@ -48,7 +48,8 @@ PRODUCT_PACKAGES += \
 # etc files
 PRODUCT_PACKAGES += \
     AudioFilter.csv \
-    AutoVolumeControl.txt
+    AutoVolumeControl.txt \
+    thermald.conf
 
 # misc camera binaries
 PRODUCT_PACKAGES += \

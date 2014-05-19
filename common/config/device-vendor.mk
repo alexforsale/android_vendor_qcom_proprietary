@@ -165,6 +165,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     com.android.future.usb.accessory \
     browsermanagement \
-    modemwarmup.jar
+    modemwarmup \
+    alljoyn-daemon
 
 include vendor/qcom/proprietary/common/msm7627a/BoardConfigVendor.mk

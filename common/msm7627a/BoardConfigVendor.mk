@@ -49,7 +49,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AudioFilter.csv \
     AutoVolumeControl.txt \
-    thermald.conf
+    thermald.conf \
+    OperatorPolicy.xml \
+    UserPolicy.xml
 
 # misc camera binaries
 PRODUCT_PACKAGES += \

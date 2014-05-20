@@ -53,6 +53,10 @@ PRODUCT_PACKAGES += \
     OperatorPolicy.xml \
     UserPolicy.xml
 
+# the source file is in frameworks/base/services/java
+PRODUCT_PACKAGES += \
+    QoSPolicy.xml
+
 # misc camera binaries
 PRODUCT_PACKAGES += \
     mm-qcamera-testsuite-client \

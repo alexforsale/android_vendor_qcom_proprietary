@@ -14,5 +14,7 @@ PRODUCT_PACKAGES += \
 
 # static library
 PRODUCT_PACKAGES += \
-    libsurround_proc
+    libsurround_proc \
+    libacdbloader
+
 
